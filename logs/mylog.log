@@ -1,0 +1,31 @@
+[FATAL] 2024-03-29 18:39:32.396 [main] StepDef - Setup1 executed...
+[INFO ] 2024-03-29 18:39:32.463 [main] StepDef - chrome browser launched
+[INFO ] 2024-03-29 18:39:33.526 [main] StepDef - url opened
+[INFO ] 2024-03-29 18:39:35.250 [main] StepDef - email address and password entered
+[INFO ] 2024-03-29 18:39:37.247 [main] StepDef - Clicked on login button
+[WARN ] 2024-03-29 18:39:40.456 [main] StepDef - Test passed: Login feature :Page title matched.
+[INFO ] 2024-03-29 18:39:42.086 [main] StepDef - user clicked on logout link.
+[WARN ] 2024-03-29 18:39:42.144 [main] StepDef - Test passed: Login feature :Page title matched.
+[INFO ] 2024-03-29 18:39:42.321 [main] StepDef - Browser closed
+[FATAL] 2024-03-29 20:03:09.838 [main] StepDef - Setup1 executed...
+[INFO ] 2024-03-29 20:03:09.916 [main] StepDef - chrome browser launched
+[INFO ] 2024-03-29 20:03:12.514 [main] StepDef - url opened
+[INFO ] 2024-03-29 20:03:13.543 [main] StepDef - email address and password entered
+[INFO ] 2024-03-29 20:04:41.406 [main] StepDef - Clicked on login button
+[WARN ] 2024-03-29 20:04:54.009 [main] StepDef - Test passed: Login feature :Page title matched.
+[FATAL] 2024-03-29 20:06:54.037 [main] StepDef - Setup1 executed...
+[INFO ] 2024-03-29 20:06:54.145 [main] StepDef - chrome browser launched
+[INFO ] 2024-03-29 20:06:58.167 [main] StepDef - url opened
+[INFO ] 2024-03-29 20:06:59.276 [main] StepDef - email address and password entered
+[INFO ] 2024-03-29 20:09:00.833 [main] StepDef - Clicked on login button
+[FATAL] 2024-03-29 20:09:24.262 [main] StepDef - Setup1 executed...
+[INFO ] 2024-03-29 20:09:24.374 [main] StepDef - chrome browser launched
+[INFO ] 2024-03-29 20:09:26.256 [main] StepDef - url opened
+[INFO ] 2024-03-29 20:09:28.051 [main] StepDef - email address and password entered
+[FATAL] 2024-03-29 20:14:36.036 [main] StepDef - Setup1 executed...
+[INFO ] 2024-03-29 20:14:36.145 [main] StepDef - chrome browser launched
+[INFO ] 2024-03-29 20:14:38.554 [main] StepDef - url opened
+[INFO ] 2024-03-29 20:14:38.958 [main] StepDef - email address and password entered
+[INFO ] 2024-03-29 20:15:14.734 [main] StepDef - Clicked on login button
+[WARN ] 2024-03-29 20:15:14.752 [main] StepDef - Test passed: Login feature :Page title matched.
+[INFO ] 2024-03-29 20:15:17.886 [main] StepDef - user clicked on logout link.
