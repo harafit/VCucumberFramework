@@ -1,5 +1,6 @@
 package PageObject;
 
+import org.junit.Assert;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -30,6 +31,9 @@ public class LoginPage {
 	@FindBy(linkText = "Logout")
 	WebElement logout;
 	
+	@FindBy(xpath = "//p[normalize-space()='Reports']")
+	WebElement report;
+	
 	public void enterEmail(String emailAdd)
 	{
 		email.clear();
@@ -50,5 +54,12 @@ public class LoginPage {
 	public void clickOnLogOutButton()
 	{
 		logout.click();
+	}
+	
+	public void checkReportOption()
+	{
+	
+		Assert.assertTrue(report.isDisplayed());
+		
 	}
 }

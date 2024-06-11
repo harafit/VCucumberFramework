@@ -1,6 +1,6 @@
 Feature: Customers
 
-  Background: Steps common for all scenrios
+  Background: Steps common for all scenarios
     Given User Launch Chrome browser
     When User opens URL "http://admin-demo.nopcommerce.com/login"
     And User enters Email as "admin@yourstore.com" and Password as "admin"

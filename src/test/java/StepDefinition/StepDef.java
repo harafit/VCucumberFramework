@@ -68,6 +68,8 @@ public class StepDef extends BaseClass {
 
 	
 		log.fatal("Setup1 executed...");
+	
+		
 
 
 	}
@@ -341,7 +343,12 @@ public class StepDef extends BaseClass {
 			Assert.assertTrue(false);
 
 	}
-
+	
+	@And("We should be able to see the Report option in menuu")
+	public void We_should_be_able_to_see_the_Report_option_in_menuu()
+	{
+		loginPg.checkReportOption();
+	}
 	@After
 	public void teardown(Scenario sc)
 	{
