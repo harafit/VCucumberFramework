@@ -28,7 +28,7 @@ public class LoginPage {
 	WebElement LoginBtn;
 	
 	
-	@FindBy(linkText = "Logout")
+	@FindBy(xpath = "//a[normalize-space()='Logout']")
 	WebElement logout;
 	
 	@FindBy(xpath = "//p[normalize-space()='Reports']")
